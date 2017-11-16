@@ -26,12 +26,14 @@ def getLinks(data):
 
 def scrape(data, originalLink = ''):
     soup = BeautifulSoup(data, 'lxml') # alternatives are 'html5lib' or html.parser
+    title = re.search(r'Portal: (.*) - Universität Bern', soup.title.string).group(1)
     course = soup.table
-    return toJSON(course, originalLink)
+    return toJSON(course, originalLink, title)
 
-def toJSON(data, originalLink):
+def toJSON(data, originalLink, title):
     table_data = [[cell.get_text() for cell in row("td")] for row in data("tr")]
     table_data.append(['Originaler Link', originalLink])
+    table_data.append(['Titel', title])
     thiscourse = json.dumps(OrderedDict(table_data), sort_keys=False, indent=4)
     return thiscourse
 
@@ -59,10 +61,12 @@ with open('output-bern.json', 'w') as file:
     print('Extracting links ...')
     links = getLinks(data)
     print('Downloading Course Data ...')
+    file.write('[')
     for link in links:
         data = makeRequest(link)
         coursedata = scrape(data, link)
         file.write(coursedata + ",\n")
+    file.write(']')
     # delete last comma
     file.seek(-1, os.SEEK_END)
     file.truncate()
