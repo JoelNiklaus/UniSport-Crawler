@@ -32,8 +32,9 @@ def scrape(data, originalLink = ''):
 
 def toJSON(data, originalLink, title):
     table_data = [[cell.get_text() for cell in row("td")] for row in data("tr")]
-    table_data.append(['Originaler Link', originalLink])
-    table_data.append(['Titel', title])
+    table_data.append(['Link', originalLink])
+    table_data.append(['Sport', title])
+    table_data.append(['Uni', 'BE'])
     thiscourse = json.dumps(OrderedDict(table_data), sort_keys=False, indent=4)
     return thiscourse
 
