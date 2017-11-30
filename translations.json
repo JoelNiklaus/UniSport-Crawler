@@ -1,0 +1,18 @@
+{
+  "Kursbeschreibung": "description",
+  "Bezeichnung der Aktivit\u00e4t": "activity",
+  "Perioden": "periods",
+  "Kurszeiten": "times",
+  "Kursniveau": "level",
+  "Ort ": "place",
+  "Trainingsleitende": "leaders",
+  "Verantwortlich": "responsible",
+  "Bemerkungen": "comments"
+  "Material": "material",
+  "Sprachen": "languages",
+  "Continuous": false,
+  "Sport": "sport",
+  "Uni": "university",
+  "Link": "link",
+  "Dates": "dates"
+}
