@@ -8,7 +8,7 @@ import os
 from collections import OrderedDict
 
 #output file
-file = open("output-fribourg.json", 'w')
+file = open("output/output-fribourg.json", 'w')
 
 #all courses; from here, visit each sport and from there, each course
 all_courses = 'http://www3.unifr.ch/sportuni/de/sportangebot/angebot-nach-aktivitaet.html'

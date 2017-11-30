@@ -56,7 +56,7 @@ def makeRequest(url):
 #coursedata = scrape(data)
 #print(coursedata)
 
-with open('output-bern.json', 'w') as file:
+with open('output/output-bern.json', 'w') as file:
     print('Making Request to ' + all_courses + ' ...')
     data = makeRequest(all_courses)
     print('Extracting links ...')
