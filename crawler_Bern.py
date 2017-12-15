@@ -1,11 +1,10 @@
-import os
 from bs4 import BeautifulSoup
 import requests
-#import lxml
-#import html5lib
 import json
 from collections import OrderedDict
 import re
+from datetime import date, datetime, timedelta
+import date_helper_bern as dh_b #custom helper function for the rather nasty dates
 
 #search result containing links to all courses
 all_courses = 'http://www.zssw.unibe.ch/usp/zms/sportangebot/suche/index_ger.html'
@@ -13,6 +12,11 @@ all_courses = 'http://www.zssw.unibe.ch/usp/zms/sportangebot/suche/index_ger.htm
 #courses found above look like this:
 example_url = 'http://www.zssw.unibe.ch/usp/zms/angebot/7428/index_ger.html'
 
+#category and uni objects
+#uni = [["Uni", {"Name": "Bern", "Code": "BE"}]]
+#cat1 = [["Category", mock1]]
+#cat2 = [["Category", mock1]]
+#cat3 = [["Category", mock1]]
 
 def getLinks(data):
     soup = BeautifulSoup(data, 'lxml')
@@ -27,6 +31,7 @@ def getLinks(data):
 def scrape(data, originalLink = ''):
     soup = BeautifulSoup(data, 'lxml') # alternatives are 'html5lib' or html.parser
     title = re.search(r'Portal: (.*) - Universität Bern', soup.title.string).group(1)
+#    print(title) #track progress while parsing
     course = soup.table
     return toJSON(course, originalLink, title)
 
@@ -35,6 +40,9 @@ def toJSON(data, originalLink, title):
     table_data.append(['Link', originalLink])
     table_data.append(['Sport', title])
     table_data.append(['Uni', 'BE'])
+    dates = dh_b.extractDates(table_data)
+    table_data.append(['Dates', dates])
+
     thiscourse = json.dumps(OrderedDict(table_data), sort_keys=False, indent=4)
     return thiscourse
 
@@ -57,19 +65,17 @@ def makeRequest(url):
 #print(coursedata)
 
 with open('output/output-bern.json', 'w') as file:
-    print('Making Request to ' + all_courses + ' ...')
+    #print('Making Request to ' + all_courses + ' ...')
     data = makeRequest(all_courses)
-    print('Extracting links ...')
+    #print('Extracting links ...')
     links = getLinks(data)
-    print('Downloading Course Data ...')
+    #print('Downloading Course Data ...')
     file.write('[')
     for link in links:
         data = makeRequest(link)
         coursedata = scrape(data, link)
         file.write(coursedata + ",\n")
-    file.write(']')
-    # delete last comma
-    file.seek(-1, os.SEEK_END)
-    file.truncate()
+    file.write(']') #you have to manually delete the last comma
+    file.close()
 
 print('Done loading data.')

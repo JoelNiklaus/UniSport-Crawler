@@ -1,23 +1,27 @@
 from bs4 import BeautifulSoup, Comment
 import re
 import requests
-# import lxml
-# import html5lib
 import json
-import os
 from collections import OrderedDict
+import random #for assigning mock categories
+import date_helper_fribourg as dh_f
 
 # output file
 file = open("output/output-fribourg.json", 'w')
 
 # translation mappings
-tranlsation = open("translations.json", 'r')
-mapping = json.load(tranlsation)
+translation = open("translations.json", 'r')
+mapping = json.load(translation)
 
 # all courses; from here, visit each sport and from there, each course
 all_courses = 'http://www3.unifr.ch/sportuni/de/sportangebot/angebot-nach-aktivitaet.html'
 courseprefix = 'http://www3.unifr.ch/sportuni/de/'
 
+#category and uni objects
+fri = {"Name": "Fribourg", "Code": "FRI"}
+mock1 = {"Name": "Mock Category 1", "Code": "MOCK1"}
+mock2 = {"Name": "Mock Category 2", "Code": "MOCK2"}
+mock3 = {"Name": "Mock Category 3", "Code": "MOCK3"}
 
 # helper function to remove all comments in a html document. https://stackoverflow.com/questions/23299557/beautifulsoup-4-remove-comment-tag-and-its-content
 def deleteComments(data):
@@ -73,18 +77,30 @@ def scrapeOneCourse(data, link):
             jsonattr.append(row)
         elif (len(row) > 2 and re.match(datetime1re, row[0]) != None):
             d = re.match(datetime1re, row[0])[0].strip()
-            dates.append(d[3:22] + d[3:14] + d[22:27])  # format the date nicely
+            dd = d[3:22] + d[3:14] + d[22:27]
+            dates.append(dh_f.returnNiceDate(dd))
+            #dates.append(d[3:22] + d[3:14] + d[22:27])  # format the date nicely
         elif (len(row) > 2 and re.match(datetime2re, row[0]) != None):
             d = re.match(datetime2re, row[0])[0].strip()
-            dates.append(d[3:22] + d[25:41])  # format the date nicely
+            dd = d[3:22] + d[25:41]
+            dates.append(dh_f.returnNiceDate(dd))
+            #dates.append(d[3:22] + d[25:41])  # format the date nicely
     if (len(dates) == 0):
         jsonattr.append(["Continuous", True])
     else:
         jsonattr.append(["Continuous", False])
     jsonattr.append(["Sport", sport])
-    jsonattr.append(["Uni", "FRI"])
+    jsonattr.append(["Uni", fri])
+    r = random.random()
+    if (r < 0.3):
+        jsonattr.append(["Category", mock1])
+    elif (r < 0.7):
+        jsonattr.append(["Category", mock2])
+    else:
+        jsonattr.append(["Category", mock3])
     jsonattr.append(["Link", link])
     jsonattr.append(["Dates", dates])
+
 
     # translate attributes according to mapping
     for attribute in jsonattr:
@@ -101,8 +117,9 @@ try:
     if r.status_code == 200:
         file.write('[')
         scrapeMainPage(r.content.decode('utf-8'))
-        file.write(']')
+        file.write(']') #you have to manually delete the last comma
         file.close()
+        print('---done---')
     else:
         print('Could not load content of ' + all_courses)
 except requests.exceptions.ConnectionError as connErr:

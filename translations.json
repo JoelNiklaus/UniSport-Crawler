@@ -9,7 +9,7 @@
   "Kurszeiten": "times",
   "Kursniveau": "level",
   "Ort ": "place",
-  "Trainingsleitende": "leaders",
+  "Trainingsleitende": "instructors",
   "Aufsichtspersonen": "supervisors",
   "Verantwortlich": "responsible",
   "Bemerkungen": "comments",
@@ -22,12 +22,13 @@
   "Anmeldung": "registration",
   "Video": "video",
   "Bilder": "images",
-  "Annulierung": "annulment",
+  "Annulierung": "cancel",
   "Dokumente": "documents",
-  "Kost & Logis": "boardAndLodge",
-  "Continuous": false,
+  "Kost & Logis": "boardAndLodging",
+  "Continuous": "continuous",
   "Sport": "sport",
   "Uni": "university",
   "Link": "link",
-  "Dates": "dates"
+  "Dates": "dates",
+  "Category": "category"
 }
