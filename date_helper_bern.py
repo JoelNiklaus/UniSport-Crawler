@@ -275,6 +275,8 @@ def extractDates(table_data):
                             else:
                                 nicedate["to"] = enddays[i+1] + 'T23:59:59+02:00'
                             nicedates.append(nicedate)
+            else:
+                return "CONT"   # if the offer is always on
 
         # sport takes place on two different (not necessarily adjacent) days every week
         elif('/' in fld_day):                                              # Montag/Dienstag
@@ -345,12 +347,22 @@ def extractDates(table_data):
                 winter = False
                 if (dd >= winter_begin and dd <= winter_end):
                     winter = True
-                if winter:
-                    nicedate["from"] = d + 'T00:00:00+01:00'
-                    nicedate["to"] = d + 'T23:59:59+01:00'
+                if(re.match(samedayre, fld_time) != None):                    # 05:45-06:30
+                    if(winter):
+                        nicedate["from"] = d + 'T' + fld_time[0:5] + ':00+01:00'
+                        nicedate["to"] = d + 'T' + fld_time[6:11] + ':00+01:00'
+                    else:
+                        nicedate["from"] = d + 'T' + fld_time[0:5] + ':00+02:00'
+                        nicedate["to"] = d + 'T' + fld_time[6:11] + ':00+02:00'
                 else:
-                    nicedate["from"] = d + 'T00:00:00+02:00'
-                    nicedate["to"] = d + 'T23:59:59+02:00'
+                    if winter:
+                        nicedate["from"] = d + 'T00:00:00+01:00'
+                        nicedate["to"] = d + 'T23:59:59+01:00'
+                    else:
+                        nicedate["from"] = d + 'T00:00:00+02:00'
+                        nicedate["to"] = d + 'T23:59:59+02:00'
                 nicedates.append(nicedate)
+        else:
+            return "NEVER" # if no date is set
 
         return nicedates

@@ -47,7 +47,12 @@ def toJSON(data, originalLink, title):
     else:
         table_data.append(["category", mock3])
     dates = dh_b.extractDates(table_data)
-    table_data.append(['dates', dates])
+    if dates == 'CONT':
+        table_data.append(["continuous", True])
+    else:
+        table_data.append(["continuous", False])
+    if dates != 'NEVER' and dates != 'CONT':
+        table_data.append(['dates', dates])
 
     thiscourse = json.dumps(OrderedDict(table_data), sort_keys=False, indent=4)
     return thiscourse
