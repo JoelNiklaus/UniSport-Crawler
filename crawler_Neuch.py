@@ -17,6 +17,10 @@ mock1 = {"Name": "Mock Category 1", "Code": "MOCK1"}
 mock2 = {"Name": "Mock Category 2", "Code": "MOCK2"}
 mock3 = {"Name": "Mock Category 3", "Code": "MOCK3"}
 
+# translation mappings
+mapping_keys = open("mapping_keys.json", 'r')
+mapping = json.load(mapping_keys)
+
 #go through all pages
 def goThroughPages(startpage, file):
     r = requests.get(startpage)
@@ -43,7 +47,12 @@ def handle_sport(sport_url, title, file):
     attrs = soup.find(class_='entry-content clearfix')
     attributes = []
     for attr in attrs.find_all('a'):
-        attributes.append(attr.contents[0])
+        if(attr['href'] == '#'):
+            attributes.append(attr.contents[0])
+    for i in range(0, len(attributes)):
+        if mapping[attributes[i]]:
+            attributes[i] = mapping[attributes[i]]
+
     panes = soup.find_all(class_='pane')
 
     course = {}
@@ -61,18 +70,19 @@ def handle_sport(sport_url, title, file):
                     t.append(re.sub(r'\s+', '', time[0].replace('\xa0', '').replace('-', ':').replace('–', ':')))
     if(d != None and len(t) > 0):
         print (title)
-        course['sport'] = title
-        course['link'] = sport_url
+        course['Sport'] = title
+        course['Link'] = sport_url
         dates = dh_n.nice_dates(d, t)
-        course['dates'] = dates
-        course['university'] = neuch
+        course['Dates'] = dates
+        course['University'] = neuch
+        course['Continuous'] = False
         r = random.random()
         if (r < 0.3):
-            course["category"] = mock1
+            course["Category"] = mock1
         elif (r < 0.7):
-            course["category"] = mock2
+            course["Category"] = mock2
         else:
-            course["category"] = mock3
+            course["Category"] = mock3
         course_json = json.dumps(OrderedDict(course), sort_keys=False, indent=4)
         file.write(course_json + ",\n")
 

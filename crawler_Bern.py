@@ -8,9 +8,14 @@ import random
 
 #search result containing links to all courses
 all_courses = 'http://www.zssw.unibe.ch/usp/zms/sportangebot/suche/index_ger.html'
+#all_courses = 'http://www.unibe.ch/universitaet/campus__und__infrastruktur/universitaetssport/sportangebot/sport_a_z/index_ger.html'
 
 #courses found above look like this:
 example_url = 'http://www.zssw.unibe.ch/usp/zms/angebot/7428/index_ger.html'
+
+# translation key mappings
+mapping_keys = open("mapping_keys.json", 'r')
+mapping = json.load(mapping_keys)
 
 bern = {"Name": "Bern", "Code": "BE"}
 mock1 = {"Name": "Mock Category 1", "Code": "MOCK1"}
@@ -53,6 +58,11 @@ def toJSON(data, originalLink, title):
         table_data.append(["continuous", False])
     if dates != 'NEVER' and dates != 'CONT':
         table_data.append(['dates', dates])
+
+    # translate attributes according to mapping
+    for attribute in table_data:
+        if mapping[attribute[0]]:
+            attribute[0] = mapping[attribute[0]]
 
     thiscourse = json.dumps(OrderedDict(table_data), sort_keys=False, indent=4)
     return thiscourse

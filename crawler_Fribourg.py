@@ -12,6 +12,9 @@ file = open("output/output-fribourg.json", 'w')
 # translation mappings
 translation = open("translations.json", 'r')
 mapping = json.load(translation)
+# translation mappings
+mapping_keys = open("mapping_keys.json", 'r')
+mapping2 = json.load(mapping_keys)
 
 # all courses; from here, visit each sport and from there, each course
 all_courses = 'http://www3.unifr.ch/sportuni/de/sportangebot/angebot-nach-aktivitaet.html'
@@ -105,7 +108,7 @@ def scrapeOneCourse(data, link):
     # translate attributes according to mapping
     for attribute in jsonattr:
         if mapping[attribute[0]]:
-            attribute[0] = mapping[attribute[0]]
+            attribute[0] = mapping2[mapping[attribute[0]]]
 
     thiscourse = json.dumps(OrderedDict(jsonattr), sort_keys=False, indent=4)
     file.write(thiscourse)
