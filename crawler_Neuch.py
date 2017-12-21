@@ -3,7 +3,6 @@ import requests
 import json
 from collections import OrderedDict
 import re
-import random
 import date_helper_neuch as dh_n
 
 #page with all courses
@@ -13,13 +12,14 @@ datesregex = r'du\s(\d{1,2})\s(janvier|février|mars|avril|mai|juin|juillet|aoû
 timeregex = r'((Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)((\s|\xa0)?:(\s|\xa0)?)?\d{2}h(\d{2})?((\s|\xa0)?–(\s|\xa0)?|(\s|\xa0)?-(\s|\xa0)?)\d{2}h(\d{2})?)' # used to include ?P<sport_regex>(?=.*) right after very first bracket
 
 neuch = {"Name": "Neuchâtel", "Code": "NE"}
-mock1 = {"Name": "Mock Category 1", "Code": "MOCK1"}
-mock2 = {"Name": "Mock Category 2", "Code": "MOCK2"}
-mock3 = {"Name": "Mock Category 3", "Code": "MOCK3"}
 
-# translation mappings
+# key translation mappings
 mapping_keys = open("mapping_keys.json", 'r')
 mapping = json.load(mapping_keys)
+
+# mapping for categories
+mapping_sports_categories = open("mapping_sports_categories.json", 'r')
+mapping_s_c = json.load(mapping_sports_categories)
 
 #go through all pages
 def goThroughPages(startpage, file):
@@ -54,7 +54,6 @@ def handle_sport(sport_url, title, file):
             attributes[i] = mapping[attributes[i]]
 
     panes = soup.find_all(class_='pane')
-
     course = {}
     d = None
     t = []
@@ -70,19 +69,13 @@ def handle_sport(sport_url, title, file):
                     t.append(re.sub(r'\s+', '', time[0].replace('\xa0', '').replace('-', ':').replace('–', ':')))
     if(d != None and len(t) > 0):
         print (title)
-        course['Sport'] = title
-        course['Link'] = sport_url
+        course['sport'] = title
+        course['link'] = sport_url
         dates = dh_n.nice_dates(d, t)
-        course['Dates'] = dates
-        course['University'] = neuch
-        course['Continuous'] = False
-        r = random.random()
-        if (r < 0.3):
-            course["Category"] = mock1
-        elif (r < 0.7):
-            course["Category"] = mock2
-        else:
-            course["Category"] = mock3
+        course['dates'] = dates
+        course['university'] = neuch
+        course['continuous'] = False
+        course['category'] = mapping_s_c[title]
         course_json = json.dumps(OrderedDict(course), sort_keys=False, indent=4)
         file.write(course_json + ",\n")
 

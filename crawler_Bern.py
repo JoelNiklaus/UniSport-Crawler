@@ -17,10 +17,11 @@ example_url = 'http://www.zssw.unibe.ch/usp/zms/angebot/7428/index_ger.html'
 mapping_keys = open("mapping_keys.json", 'r')
 mapping = json.load(mapping_keys)
 
+# mapping for categories
+mapping_sports_categories = open("mapping_sports_categories.json", 'r')
+mapping_s_c = json.load(mapping_sports_categories)
+
 bern = {"Name": "Bern", "Code": "BE"}
-mock1 = {"Name": "Mock Category 1", "Code": "MOCK1"}
-mock2 = {"Name": "Mock Category 2", "Code": "MOCK2"}
-mock3 = {"Name": "Mock Category 3", "Code": "MOCK3"}
 
 def getLinks(data):
     soup = BeautifulSoup(data, 'lxml')
@@ -44,13 +45,7 @@ def toJSON(data, originalLink, title):
     table_data.append(['link', originalLink])
     table_data.append(['sport', title])
     table_data.append(['university', bern])
-    r = random.random()
-    if (r < 0.3):
-        table_data.append(["category", mock1])
-    elif (r < 0.7):
-        table_data.append(["category", mock2])
-    else:
-        table_data.append(["category", mock3])
+    table_data.append(['category', mapping_s_c[title]])
     dates = dh_b.extractDates(table_data)
     if dates == 'CONT':
         table_data.append(["continuous", True])

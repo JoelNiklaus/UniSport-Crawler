@@ -1,14 +1,42 @@
 [
     {
-        "Name": "Mock Category 1",
-        "Code": "MOCK1"
+        "name": "Fitness",
+        "code": "FIT"
     },
     {
-        "Name": "Mock Category 2",
-        "Code": "MOCK2"
+        "name": "Martial Arts",
+        "code": "MARTIAL"
     },
     {
-        "Name": "Mock Category 3",
-        "Code": "MOCK3"
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    {
+        "name": "Diverse Sports",
+        "code": "REST"
     }
 ]
