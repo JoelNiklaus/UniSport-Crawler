@@ -11,7 +11,7 @@ startpage = 'http://www10.unine.ch/sun/types/disciplines/'
 datesregex = r'du\s(\d{1,2})\s(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)\sau\s(\d{1,2})\s(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre)(\s)?(\d{4})?'
 timeregex = r'((Lundi|Mardi|Mercredi|Jeudi|Vendredi|Samedi|Dimanche)((\s|\xa0)?:(\s|\xa0)?)?\d{2}h(\d{2})?((\s|\xa0)?–(\s|\xa0)?|(\s|\xa0)?-(\s|\xa0)?)\d{2}h(\d{2})?)' # used to include ?P<sport_regex>(?=.*) right after very first bracket
 
-neuch = {"Name": "Neuchâtel", "Code": "NE"}
+neuch = {"name": "Neuchâtel", "code": "NE"}
 
 # key translation mappings
 mapping_keys = open("mapping_keys.json", 'r')
@@ -20,6 +20,10 @@ mapping = json.load(mapping_keys)
 # mapping for categories
 mapping_sports_categories = open("mapping_sports_categories.json", 'r')
 mapping_s_c = json.load(mapping_sports_categories)
+
+# sport mappings
+mapping_sport = open("mapping_sports_original.json", 'r')
+mapping_s = json.load(mapping_sport)
 
 #go through all pages
 def goThroughPages(startpage, file):
@@ -69,7 +73,10 @@ def handle_sport(sport_url, title, file):
                     t.append(re.sub(r'\s+', '', time[0].replace('\xa0', '').replace('-', ':').replace('–', ':')))
     if(d != None and len(t) > 0):
         print (title)
-        course['sport'] = title
+
+        # add ever-present attributes
+        course['sport'] = mapping_s[title]
+        course['sportOriginal'] = title
         course['link'] = sport_url
         dates = dh_n.nice_dates(d, t)
         course['dates'] = dates

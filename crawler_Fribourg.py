@@ -17,12 +17,16 @@ mapping = json.load(mapping_keys)
 mapping_category = open("mapping_sports_categories.json", 'r')
 mapping_cat = json.load(mapping_category)
 
+# sport mappings
+mapping_sport = open("mapping_sports_original.json", 'r')
+mapping_s = json.load(mapping_sport)
+
 # all courses; from here, visit each sport and from there, each course
 all_courses = 'http://www3.unifr.ch/sportuni/de/sportangebot/angebot-nach-aktivitaet.html'
 courseprefix = 'http://www3.unifr.ch/sportuni/de/'
 
 #category and uni objects
-fri = {"Name": "Fribourg", "Code": "FRI"}
+fri = {"name": "Fribourg", "code": "FRI"}
 
 # helper function to remove all comments in a html document. https://stackoverflow.com/questions/23299557/beautifulsoup-4-remove-comment-tag-and-its-content
 def deleteComments(data):
@@ -80,26 +84,27 @@ def scrapeOneCourse(data, link):
             d = re.match(datetime1re, row[0])[0].strip()
             dd = d[3:22] + d[3:14] + d[22:27]
             dates.append(dh_f.returnNiceDate(dd))
-            #dates.append(d[3:22] + d[3:14] + d[22:27])  # format the date nicely
         elif (len(row) > 2 and re.match(datetime2re, row[0]) != None):
             d = re.match(datetime2re, row[0])[0].strip()
             dd = d[3:22] + d[25:41]
             dates.append(dh_f.returnNiceDate(dd))
-            #dates.append(d[3:22] + d[25:41])  # format the date nicely
-    if (len(dates) == 0):
-        jsonattr.append(["continuous", True])
-    else:
-        jsonattr.append(["continuous", False])
-    jsonattr.append(["sport", sport])
-    jsonattr.append(["uni", fri])
-    jsonattr.append(["link", link])
-    jsonattr.append(["dates", dates])
-    jsonattr.append(["category", mapping_cat[sport]])
 
     # translate attributes according to mapping
     for attribute in jsonattr:
         if mapping[attribute[0]]:
             attribute[0] = mapping[attribute[0]]
+
+    # add ever-present attributes
+    if (len(dates) == 0):
+        jsonattr.append(["continuous", True])
+    else:
+        jsonattr.append(["continuous", False])
+    jsonattr.append(['sport', mapping_s[sport]])
+    jsonattr.append(["sportOriginal", sport])
+    jsonattr.append(["university", fri])
+    jsonattr.append(["link", link])
+    jsonattr.append(["dates", dates])
+    jsonattr.append(["category", mapping_cat[sport]])
 
     thiscourse = json.dumps(OrderedDict(jsonattr), sort_keys=False, indent=4)
     file.write(thiscourse)

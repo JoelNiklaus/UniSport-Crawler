@@ -21,7 +21,11 @@ mapping = json.load(mapping_keys)
 mapping_sports_categories = open("mapping_sports_categories.json", 'r')
 mapping_s_c = json.load(mapping_sports_categories)
 
-bern = {"Name": "Bern", "Code": "BE"}
+# sport mappings
+mapping_sport = open("mapping_sports_original.json", 'r')
+mapping_s = json.load(mapping_sport)
+
+bern = {"name": "Bern", "code": "BE"}
 
 def getLinks(data):
     soup = BeautifulSoup(data, 'lxml')
@@ -42,8 +46,16 @@ def scrape(data, originalLink = ''):
 
 def toJSON(data, originalLink, title):
     table_data = [[cell.get_text() for cell in row("td")] for row in data("tr")]
+
+    # translate attributes according to mapping
+    for attribute in table_data:
+        if mapping[attribute[0]]:
+            attribute[0] = mapping[attribute[0]]
+
+    # add ever-present attributes
     table_data.append(['link', originalLink])
-    table_data.append(['sport', title])
+    table_data.append(['sport', mapping_s[title]])
+    table_data.append(['sportOriginal', title])
     table_data.append(['university', bern])
     table_data.append(['category', mapping_s_c[title]])
     dates = dh_b.extractDates(table_data)
@@ -53,11 +65,6 @@ def toJSON(data, originalLink, title):
         table_data.append(["continuous", False])
     if dates != 'NEVER' and dates != 'CONT':
         table_data.append(['dates', dates])
-
-    # translate attributes according to mapping
-    for attribute in table_data:
-        if mapping[attribute[0]]:
-            attribute[0] = mapping[attribute[0]]
 
     thiscourse = json.dumps(OrderedDict(table_data), sort_keys=False, indent=4)
     return thiscourse

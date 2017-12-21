@@ -1,0 +1,2222 @@
+{
+    "Acro Yoga": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Afrikanischer Tanz": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Afro Dance B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Aikido B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Alpinismuskurs": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Antara": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Aquafit": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Atem und Bewegung \u263c": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Ausbildung - Ski-Tagestouren": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ausdauer-Trainingsberatung L1": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Automassage Do In": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Automassage musculaire": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Bachata B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Bachata L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Badminton": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton (freies Spiel)": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton B": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton B/L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton Club Spiel": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton Club Teens": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton Club Wettkampf 1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton Club Wettkampf 1/2": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton Club Wettkampf 2": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton Club Wettkampf 2/3": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton Freies Spiel": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton L1/L2": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton L2": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton SHM": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badminton/Tischtennis Spiel": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Badmintonnacht": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Ballett": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Ballett B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Ballett B/L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Ballett Barre \u00e0 Terre": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Ballett L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Ballett L1/L2": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Basketball": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball B": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball Club 3. Liga Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball Club 3. Liga Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball L1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball L1/L2": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball SHM 3x3 Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Basketball SHM 3x3 Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Beach Tennis": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Beach Tennisturnier Mixed": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Beachvolleyball": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Beachvolleyball Beachvolleyturnier Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Beachvolleyball Beachvolleyturnier Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Beachvolleyball Beachvolleyturnier Mixed": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Beachvolleyball L1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Beachvolleyball L1/L2": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Binnensee: Info-Abend, Anm. Schnuppersegeln": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Bodyforming": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Bodyforming Bodystyling": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Bodyforming FunTone": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Bodysculpt": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Bogenschiessen B": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Bogenschiessen L1": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Bouldern Bouldertag": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Bouldern Boulderwoche": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Boxe anglaise": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Boxen": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Boxen B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Boxen Boxnacht": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Boxen L1": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "BrainMoving (Life Kinetik\u00ae)": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Breakdance": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Burner Games\u00ae": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Burner Games\u00ae Event": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Capoeira": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Capoeira B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Cardio Step": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Cardio Step Step-Aerobic": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Cardio Workout": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Circuit": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Circuit Fitness f\u00fcr Frauen \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Contemporary Dance B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Contemporary Dance L1/L2": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Cross-Uni": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Curling": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Curling Einsteigerkurs B": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Dance": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Danse contemporaine": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Danse salsa, merengue, cumbia": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Deutsche Hochschulmeisterschaft Ski Alpin": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Diagnostik Conconi-Fahrradergometer": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Diagnostik Conconi-Lauftest": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Diagnostik Laktatstufen-Test": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Dr sportlech Zibelem\u00e4rit FitFlamc": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Dr sportlech Zibelem\u00e4rit FunTone": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Dr sportlech Zibelem\u00e4rit Indoor Cycling": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Dr sportlech Zibelem\u00e4rit Life Junkie Fitness": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Dr sportlech Zibelem\u00e4rit Pilates": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Dr sportlech Zibelem\u00e4rit Power Yoga": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Dr sportlech Zibelem\u00e4rit TRX-Plus": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Dr sportlech Zibelem\u00e4rit Yoga": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Dr sportlech Zibelem\u00e4rit deepWORK": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Druckluftschiessen": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Einf\u00fchrungskurs Eisklettern": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Eishockey": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Eishockey Club 3. Liga Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Eishockey Club Sommertraining": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Eishockey SHM": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Entspannungsmassage": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Escrime": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Fahren lernen abseits der Piste Ski B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Fahren lernen abseits der Piste Snowboard B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Fechten (Degen)": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten (Florett)": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten (S\u00e4bel)": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten Degen B": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten Degen L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten Florett B": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten Florett L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten L`Ours de Berne": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten SHM": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Fechten Zibelem\u00e4rit": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Feldenkrais \u263c": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Fit&Boxe": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Fit&Boxe L1": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Fitboxe": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Fitboxe L1": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Fitness Schnee- und Bergsport": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Fitness aquatique": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Fitnessraum-Abo Fit 17/18": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Flag Football": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Flamenco B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Flamenco L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Football en salle": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Freestyle HipHop": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Frisbee B": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Frisbee DDC L1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Frisbee Freestyle": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Frisbee Ultimate": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Fussball": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Fussball Bubble Football Turnier": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Fussball Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Fussball Nacht Final": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Fussball Nacht Qualifikation": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Fussball SHM Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Fussball SHM Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal (freies Spiel)": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal B": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal Frauen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal Nacht Final": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal Nacht Qualifikation": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal SHM Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal SHM Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Futsal f\u00fcr Angestellte": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Ger\u00e4teturnen": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Ger\u00e4teturnen Uni-2-Tre (Akrobatik und Tanz)": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Gleitschirmfliegen Gleitschirm Grundkurs": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Gleitschirmfliegen Schnupperkurs": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Golf Driving Range": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Golf Platzreife L1": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Golf SHM": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Golf Skills-Test": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Golf Taktisches Spiel auf dem Platz (18-Loch)": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Golf Taktisches Spiel auf dem Platz (6- oder 9-Loch)": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Gymnastique aux agr\u00e8s": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Gymnastique du dos": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Gymstick": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Handball": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Handball Club 2. Liga Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Handball Club 3. Liga Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Handball Frauen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Handball M\u00e4nner": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Handball Polysportive": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Handball SHM": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Headis": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Hip-Hop": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Hip-hop Basic": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "HipHop": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "HipHop House": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Hochtour": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Hochtour B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Hochtour L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Hochtouren Leichte Hochtour": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Hochtouren Tourenwoche L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Hochtourenkurs": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Hochtourenkurs B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Hockey sur glace": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Hot Iron": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Hot Iron L1": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Indoor Bouldern": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Indoor Cycling": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Indoor cycling": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Indoor-Cycling": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Indoorklettern B": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Indoorklettern Kletter-Boulder-Kombi L1": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Indoorklettern L1": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Initiation au cirque": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Jazzdance B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Jazzdance L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Jazzdance L1/L2": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Jodo": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Jodo B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Jogging": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Ju-Jitsu B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Ju-Jitsu L1": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Judo B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Judo L1": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Kajak": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kajak Basiskurs B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kajak Camp S\u00fcdfrankreich L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kajak Eskimotieren B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kajak Eskimotieren L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kajak Tagesausflug L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kajak Wellenkurs L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kajak-Wochenende L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Karate B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Karate L1": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Karate L1/L2": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Karate L2": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Karate Schweizermeisterschaft": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Karat\u00e9": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Kendo B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Kick - Move - Spirit": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Kick Power": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Kick Power & more": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Kickboxen B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Kinesis Circuit": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Kitesurfen f\u00fcr Studierende": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Kletterkurs Outdoor": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Kletterkurs Outdoor - 6 Tage": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Kletterkurs Outdoor - Weekend": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Klettern Niveau I": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Klettern Niveau I&III": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Klettern Niveau II": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Klettern Niveau II + III": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Kobudo": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Kondi": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Kondi-Dance": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Kraft-Trainingsberatung L1": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Kung-Fu": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Kungfu B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Kurs Iglubauen - Weekend": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Kurs Schneeschuhwanderung": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Einsteigerkurs Klassisch B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Einsteigerkurs Skating B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Engadin Skimarathon L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Juratour L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Klassisch B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Nordic Camp": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Skating B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Tagesausflug Klassisch & Skating B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Vermietung": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauf Wochenende L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlaufausbildung - 1 Tag": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlaufausbildung - Nachmittag": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlaufausbildung - Weekend": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauftage": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Langlauftage B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Laufsport Br\u00fcckenlauf": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Laufsport Jogging B": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Laufsport Lauftraining L1": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Laufsport Lauftraining L2": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Laufsport SOLA-Stafette": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Laufsport Triathlon": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Lawinenkurs - Weekend": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Limitless": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Lindy Hop": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Lindy Hop B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Lindy Hop L1/L2": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "MAT Badminton \u263c": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "MAT Bodyforming \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "MAT Hot Iron \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "MAT Pilates \u263c": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "MAT Power Yoga": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "MAT R\u00fcckenfit \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "MAT Schneeschuhtour mit Fondue B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "MAT Seekajak B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "MAT Spiel \u263c": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "MAT Yoga \u263c": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Massage": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Massagekurs": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Meditation \u263c": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Mini-Tennis": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Modern Jazz  (jazz classic)": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Mountain Bike": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Move": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Nachtskifahren": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Nachtsnowboarden": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Natation": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Nordic Walking": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Oriental Dance B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Oriental Dance L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Orientalischer Tanz": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Orientierungslauf": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Orientierungslauf B": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Outdoor Bouldern": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Outdoor Workout": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Outdoorklettern Alpine Klettertour L2": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Outdoorklettern Klettern Mehrseill\u00e4ngen L1": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Outdoorklettern Klettertag": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Outdoorklettern Kletterwochenende": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Outdoorklettern Kletterwochenende L1": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Parkour": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Patinage libre": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Personal Training": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Pilates": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Pilates B": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Pilates L1": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Pilates \u263c": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Pole fitness": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Power Yoga": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Power Yoga B": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Power Yoga L1": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Power Yoga \u263c": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Prana Vinyasa Flow Yoga": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Pump": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Qigong B": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Reiten Anf\u00e4ngerunterricht bis Dressur- und Springstunden": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Relax": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Remise en forme": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Rock 'n' Roll": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Rock'n'Roll B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Rock'n'Roll L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Rudern": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Rudern Basiskurs B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Rudern Ergometer / Kraft B/L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Rudern L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Rudern Wanderfahrt B/L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Rudern Wanderfahrt L2": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Rumpfstabilisierung": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Running": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "R\u00fcckenfit \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "S.A.F.E. (pilates)": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "SHM Ski Alpin (f\u00fcr Fis-Lizenzierte)": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Saisonabschluss Langlauf B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Saisonabschluss Ski L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Saisonabschluss Snowboard L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Saisonabschluss Telemark L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Saisonstart Ski": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Saisonstart Snowboard": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Salsa": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Salsa \"Isolationen, Bodymovements & Pasitos\"  Salsa Lady Styling B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Salsa \"Isolationen, Bodymovements & Pasitos\" L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Salsa B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Salsa L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Salsa L2": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Samichlaus Rudern L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schneeschuhtour B": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SKI - Nachmittag": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SKI - Weekend": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SKI - Woche": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SNOWBOARD - Nachmittag": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SNOWBOARD - Tagestouren": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SNOWBOARD - Weekend": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SNOWBOARD - Woche": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schneesportausbildung SNOWBOARD-Tour - Wochenende": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Schnuppersegeln Binnensee": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schnuppertauchen": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen  -1- freies Schwimmen": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen  -2-": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen  -3- freies Schwimmen": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen  -4-": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen  -5-": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen  -6-": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Allround B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Allround L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Allround L2": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Crawl Intensivkurs B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Crawlkurs B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Crawlkurs B/L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Crawlkurs L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Delfinkurs B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Fit in den Tag": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Individueller Schwimmunterricht": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen Stil & Fitness \u263c": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Schwimmen lernen B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Seekajak-Ausflug": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Seekajak-Training": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Segelfliegen Schnupperfl\u00fcge": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Segeln Binnensee: Einf\u00fchrungs- und D-Schein-Kurse": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Segeln Hochseeschein Theorie-Intensivkurs": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Segeln Hochseeschein Theoriekurs": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Segeln Jolle": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Segeln Segelbootsharing Binnensee": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Selbstverteidigungskurs B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Selbstverteidigungskurs L1": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Self-d\u00e9fense": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Ski Alpin SHM (open Kategorie)": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski Langlauf SHM": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski SAS-Konditionstraining": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski Swiss Winter University Games (SWUG)": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtour": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Lawinenkurs Ski/Snowboard": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Ski-/Snb-Touren mit Ausbildung": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Ski/Snowboard Tourentage": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Ski/Snowboard Tourenwoche": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Skihochtour L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Skihochtour Ostern": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Skihochtour Ostern L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski-/Snowboardtouren Skitourentage L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski/Snowboard Freeride L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski/Snowboard Pflege und Pr\u00e4paration": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Ski/Snowboard Schneesport-Camp": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Skitour - Weekend": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Skitouren - Haute Route": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Slackline": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Slackline B/L1": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Slopestyle/Halfpipe Ski": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Slopestyle/Halfpipe Snowboard": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Smolball": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Snowkiten": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Sophrologie cayc\u00e9dienne": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Spielrausch": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Squash Kursserie 3": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Squash Kursserie 4": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Squash Kursserie 5": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Squash Kursserie 6": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Squashkurs 4: 2er B/L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Squashkurs 5: 2er B/L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Squashkurs 5: 4er B/L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Squashturnier": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Stand Up Paddling (SUP) Aarefahrt L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Stand Up Paddling B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Stand Up Paddling B/L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Stand up paddling": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Standard- und Lateint\u00e4nze B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Standard- und Lateint\u00e4nze Disco Fox B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Standard- und Lateint\u00e4nze L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Standard- und Lateint\u00e4nze Tanzkreis L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Standard- und Lateint\u00e4nze Tanznacht": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Step": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Step - Shop": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Step&Tone": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Step&Tone Step-Intervall": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Stepptanz B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Stepptanz L1/L2": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Swiss Slackline Championships Open - Wettkampf nat": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Sypoba": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "T'ai Chi B": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "T-Bow": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "TRE\u00ae \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "TRX": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "TRX Online Einschreibung": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Taekwondo": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Taekwondo B": {
+        "name": "Martial Arts",
+        "code": "MARTIAL"
+    },
+    "Tageskurs Ski B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Tageskurs Snowboard B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Tageskurs Telemark B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Tango": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Tango Argentino": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Tango Argentino B": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Tango Argentino L1": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Tango Argentino L2": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Tauchen Advanced Open Water Diver Kurs L1": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Tauchen Open Water Diver Kurs B": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Tchoukball": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Team Mixed Tennis Turnier": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Technikkurs Ski L1/L2":{
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Technikkurs Snowboard L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Technikkurs Telemark L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Tennis": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis Kursserie 1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis Kursserie 4": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis Kursserie 5": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis Kursserie 6": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis SHM": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis de table": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis indoor": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis outdoor": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis outdoor (Niveau I)": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tennis outdoor (Niveau II)": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 4: 2er B": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 4: 2er E": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 4: 2er L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 4: 3er B": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 4: 3er E": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 4: 3er L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 5: 2er B": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 5: 2er E": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 5: 2er L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 5: 3er B": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 5: 3er E": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tenniskurs 5: 3er L1": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tischtennis": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tischtennis (freies Spiel)": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tischtennis SHM": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Tischtennisturnier": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Touch Rugby": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Trainingsberatung (Wieder-)Einstieg - leicht gemacht": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Trainingsberatung Einf\u00fchrung Fitnessraum": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Trainingsberatung MAT Fitness \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Trekking - Tagesausflug": {
+        "name": "Climbing and Mountaineering",
+        "code": "CLIMB"
+    },
+    "Unihockey": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey Club 2. Liga Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey Club 4. Liga Herren 1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey Club 4. Liga Herren 2": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey Club Mixed": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey L1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey SHM Grossfeld Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey SHM Grossfeld Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey SHM Kleinfeld Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey SHM Kleinfeld Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Unihockey f\u00fcr Angestellte": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Urban Styles/HipHop": {
+        "name": "One on One",
+        "code": "ONE"
+    },
+    "Urban Training": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Velofahren Mountainbike": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Velofahren Mountainbike-Tour": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Velofahren Renn-Velotreff": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Verbindungen/Sporttreibende akademische Gruppen Akad. Turnerschaft Rhenania": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Verbindungen/Sporttreibende akademische Gruppen Hygex": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Voile d\u00e9riveurs (Sunfish)": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Volleyball": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball 1. Liga Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball 1. Liga Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball 3. Liga Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball 3. Liga Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball 4. Liga (a) Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball 4. Liga b Damen": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball B": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Damen L1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Damen SHM": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Herren SHM": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball L1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball L1/L2": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball L2": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball NLA Herren": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Nachwuchs Herren F\u00f6rdertraining": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Nachwuchs Herren U19": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Spiel": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Spiel L1": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "Volleyball Volleynight": {
+        "name": "Team Sports",
+        "code": "TEAM"
+    },
+    "V\u00f5 Vi\u00eatnam B": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Warm-Up Ski L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Warm-Up Snowboard L1/L2": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Wasserfitness Hydro-Gym  \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Wasserfitness Hydro-Gym \u263c": {
+        "name": "Fitness",
+        "code": "FIT"
+    },
+    "Wasserspringen": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Weekend Ski B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Weekend Snowboard B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Weekend Telemark B/L1": {
+        "name": "Winter Sports",
+        "code": "WINTER"
+    },
+    "Wellenreiten Einsteiger/Fortgeschrittene": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Wettk\u00e4mpfe Schiessen 300m/25m SHM": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Wettk\u00e4mpfe Schiessen Druckluft SHM": {
+        "name": "Diverse Sports",
+        "code": "REST"
+    },
+    "Wiener Walzer und Disco Fox": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "Wildwassertag": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Windsurf": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Windsurfen": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Windsurfen Sommerlager": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Windsurfen f\u00fcr Studierende": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Windsurfen/Kitesurfen": {
+        "name": "Water Sports",
+        "code": "WATER"
+    },
+    "Yoga": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Yoga \u263c": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "Zumba": {
+        "name": "Dancing",
+        "code": "DANCE"
+    },
+    "bodyART": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    },
+    "bodyART deepWORK": {
+        "name": "Yoga and Wellness",
+        "code": "YOGA"
+    }
+}

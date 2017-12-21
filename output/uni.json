@@ -1,14 +1,14 @@
 [
     {
-        "Name": "Bern",
-        "Code": "BE"
+        "name": "Bern",
+        "code": "BE"
     },
     {
-        "Name": "Neuch\u00e2tel",
-        "Code": "NE"
+        "name": "Neuch\u00e2tel",
+        "code": "NE"
     },
     {
-        "Name": "Fribourg",
-        "Code": "FRI"
+        "name": "Fribourg",
+        "code": "FRI"
     }
 ]

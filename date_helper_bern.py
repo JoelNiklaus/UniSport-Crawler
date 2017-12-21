@@ -72,11 +72,11 @@ def getCoordinates (table_data):
     fld_day, fld_time, fld_period = None, None, None
 
     for item in table_data:
-        if item[0] == 'Tag':
+        if item[0] == 'day':
             fld_day = item[1]
-        elif item[0] == 'Zeit':
+        elif item[0] == 'time':
             fld_time = item[1]
-        elif item[0] == 'Datum/Phase':
+        elif item[0] == 'date':
             fld_period = item[1]
     return fld_day, fld_time, fld_period
 

@@ -13,7 +13,7 @@ files.append('output/output-fribourg.json')
 for file in files:
     courses = json.load(open(file))
     for course in courses:
-        sports.add(course['Sport']) #attributeset.add(key)
+        sports.add(course['sport']) #attributeset.add(key)
 
 table = [[sport, "TRANSLATION"] for sport in sports]
 all_sports = json.dumps(OrderedDict(table), sort_keys=True, indent=4)
